@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family:Metropolis-self;
+    src: urL(../fonts/Metropolis-Regular.otf);
+}
+
+@font-face {
+    font-family: Metropolis-self-bold;
+    src: url(../fonts/Metropolis-Bold.otf);
+}
+
+@font-face {
+    font-family: Metropolis-self-extrabold;
+    src: url(../fonts/Metropolis-ExtraBold.otf);
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    background-image: url(../img/home-bg.jpeg);
+    background-repeat: no-repeat center center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-color: transparent;
+    padding-bottom: 550px;
+    width: 100%;
+    height: 300px;
+}
+
+header .logo{
+    position: sticky;
+    margin-top: 20px;
+    color: white;
+    font-family: Metropolis-self-bold;
+}
+
+header .nav-bar{
+    position: sticky;
+}
+
+.nav-bar .nav-item{
+    margin-top: 28px;
+    display: inline-block;
+    font-family: Metropolis-self-bold;
+    padding: 10px;
+}
+
+.nav-item a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+.welcome-text{
+    position: absolute;
+    margin-top: 100px;
+    bottom: 500px;
+    left:400px;
+    padding-top: 100px;
+}
+
+.welcome-text .title{
+    color: white;
+    font-size: 60px;
+}
+
+.welcome-text .description{
+    color: white;
+    font-size: 35px;
+    padding-left: 50px;
+}
+
+.ul{
+    list-style: none;
+    margin-top: 50px;
+}
+
+.posts{
+    width:38%;
+    margin: 0 auto ;
+}
+
+.post-item{
+    width: 100%;
+}
+
+.post-item .post-title{
+    text-align: left;
+    margin-top: 10px;
+}
+
+.post-item .post-description{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 28px;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.post-item .post-info{
+    text-align: left;
+    color: rgba(112, 112, 112, 0.733);
+    margin-top: 15px;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.button button{
+    margin-left: 69%;
+    margin-bottom: 30px;
+    width: 210px;
+    height: 60px;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(33, 140, 173);
+    font-family: 'Barlow', sans-serif;
+}
+
+footer .media{
+    text-align: center;
+}
+
+.media .icons ul{
+    margin: 0 auto;
+    display: inline-flex;
+}
+.media .icons ul li{
+    margin-left: 25px;
+    list-style-type: none;
+    font-size: 26px;
+    
+}  
+.media .icons ul li .iconBG{
+    width: 46px;
+    height: 46px;
+    background-color: rgb(44, 46, 51);
+    border-radius: 50%;
+
+} 
+.media .icons ul li .iconBG:hover{
+     background-color: rgb(33, 140, 173);
+}
+.media .icons ul li .iconBG i{
+    margin-top: 9px;
+    color: white;
+}
+.copyrigt{
+    margin: 20px auto 40px auto;
+    text-align: center;
+    font-size: 10px;
+    color: rgb(116, 116, 116);
+}

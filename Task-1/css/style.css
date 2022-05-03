@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family:Metropolis-self;
+    src: urL(../fonts/Metropolis-Regular.otf);
+}
+
+@font-face {
+    font-family: Metropolis-self-bold;
+    src: url(../fonts/Metropolis-Bold.otf);
+}
+
+@font-face {
+    font-family: Metropolis-self-extrabold;
+    src: url(../fonts/Metropolis-ExtraBold.otf);
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    width: 100%;
+    height: 70px;
+}
+
+header .logo{
+    margin-top: 20px;
+    color: white;
+    font-family: Metropolis-self-bold;
+}
+
+header .nav-bar{
+    position: relative;
+}
+
+.nav-bar .nav-item{
+    margin-top: 28px;
+    display: inline-block;
+    font-family: Metropolis-self-bold;
+}
+
+.nav-item a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+#cards{
+    margin-top: 50px;
+}
+
+.big-card{
+    padding-top: 20px;
+    margin: 40px auto;
+    width: 60%;
+    height: 350px;
+    background-color: rgb(241, 251, 255);
+    border-radius: 10px;
+    text-align: center;
+    font-family: Metropolis-self-extrabold;
+}
+
+.big-card .title{
+    margin: 15px 0;
+    font-size: 30px;
+
+}
+
+.big-card .description{
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-family: Metropolis-self;
+}
+
+.button button{
+    font-size: 24px;
+    margin: 5px;
+    padding: 10px;
+    color:white;
+    background-color: rgb(20, 94, 253);
+    border-radius: 10px;
+}
+
+.button button a{
+    color:white;
+    text-decoration: none;
+}
+
+.six-card{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card{
+    position: relative;
+    padding: 30px;
+    background-color: rgb(241, 251, 255);
+    width: 30%;
+    height: 200px;
+    margin-bottom: 40px;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.card .icon{
+    position: absolute;
+    width: 25%;
+    height: 31%;
+    background-color: rgb(130, 184, 255);
+    text-align: center;
+    border-radius: 10px;
+    top: -30px;
+    left: 36%;
+}
+
+.card .icon i{
+    margin-top: 20%;
+    font-size: 30px;
+}
+
+.card .title{
+    margin-top: 30px;
+    font-size: 13px;
+    font-family: Metropolis-self-bold;
+}
+
+.card .description{
+    margin-top: 20px;
+    font-size: 17px;
+    font-family: Metropolis-self;
+}
+
+.copyright{
+    background-color: rgba(0, 9, 22, 0.94);
+    color:white;
+    text-align: center;
+    padding: 50px;
+    font-size: 12px;
+    font-family: Metropolis-self;
+}
