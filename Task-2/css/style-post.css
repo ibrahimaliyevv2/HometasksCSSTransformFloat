@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family:Metropolis-self;
+    src: urL(../fonts/Metropolis-Regular.otf);
+}
+
+@font-face {
+    font-family: Metropolis-self-bold;
+    src: url(../fonts/Metropolis-Bold.otf);
+}
+
+@font-face {
+    font-family: Metropolis-self-extrabold;
+    src: url(../fonts/Metropolis-ExtraBold.otf);
+}
+
+.welcome-text{
+    position: absolute;
+    margin-top: 10px;
+    bottom: 400px;
+    left: 155px;
+    padding-top: 100px;
+}
+
+.welcome-text .title{
+    color: white;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-top: 50px;
+    font-weight: bold;
+}
+
+.welcome-text .description{
+    color: white;
+    font-size: 35px;
+    padding-left: 200px;
+}
+
+.globalMain{
+    width:38%;
+}
+
+.globalMain .text p{
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.content h1{
+    text-align: center;
+    padding-left: 200px;
+    font-size: 50px;
+}
+
+footer .media{
+    text-align: center;
+}
+
+.media .icons ul{
+    margin: 0 auto;
+    display: inline-flex;
+}
+.media .icons ul li{
+    margin-left: 25px;
+    list-style-type: none;
+    font-size: 26px;
+    
+}  
+.media .icons ul li .iconBG{
+    width: 46px;
+    height: 46px;
+    background-color: rgb(44, 46, 51);
+    border-radius: 50%;
+
+} 
+.media .icons ul li .iconBG:hover{
+     background-color: rgb(33, 140, 173);
+}
+.media .icons ul li .iconBG i{
+    margin-top: 9px;
+    color: white;
+}
+.copyrigt{
+    margin: 20px auto 40px auto;
+    text-align: center;
+    font-size: 10px;
+    color: rgb(116, 116, 116);
+}
